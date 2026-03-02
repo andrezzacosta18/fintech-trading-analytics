@@ -82,15 +82,17 @@ The project follows a star schema model.
 
 ## 📁 Repository Structure
 ```fintech-trading-analytics/
-│
-├── sql/
-│ ├── 02_seed.sql
-│ ├── 03_analysis_basic.sql
-│ ├── 04_analysis_advanced.sql
-│
-├── docs/
-├── powerbi/
-└── README.md
+fintech-trading-analytics/
+├─ sql/
+│  ├─ 01_schema.sql
+│  ├─ 02_seed.sql
+│  ├─ 03_analysis_basic.sql
+│  ├─ 04_analysis_advanced.sql
+│  └─ 99_sandbox.sql              
+├─ docs/
+│  ├─ erd.png                    
+│  └─ data_dictionary.md          
+└─ README.md
 ```
 
 ---
